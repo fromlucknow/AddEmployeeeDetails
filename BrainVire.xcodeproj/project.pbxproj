@@ -1,0 +1,615 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B04E52FE258E486900FE014E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E52FD258E486900FE014E /* AppDelegate.swift */; };
+		B04E5300258E486900FE014E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E52FF258E486900FE014E /* SceneDelegate.swift */; };
+		B04E5302258E486900FE014E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E5301258E486900FE014E /* ViewController.swift */; };
+		B04E5305258E486900FE014E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04E5303258E486900FE014E /* Main.storyboard */; };
+		B04E5308258E486900FE014E /* BrainVire.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B04E5306258E486900FE014E /* BrainVire.xcdatamodeld */; };
+		B04E530A258E486A00FE014E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04E5309258E486A00FE014E /* Assets.xcassets */; };
+		B04E530D258E486A00FE014E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04E530B258E486A00FE014E /* LaunchScreen.storyboard */; };
+		B04E5318258E486A00FE014E /* BrainVireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E5317258E486A00FE014E /* BrainVireTests.swift */; };
+		B04E5323258E486A00FE014E /* BrainVireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E5322258E486A00FE014E /* BrainVireUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B04E5314258E486A00FE014E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04E52F2258E486900FE014E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04E52F9258E486900FE014E;
+			remoteInfo = BrainVire;
+		};
+		B04E531F258E486A00FE014E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B04E52F2258E486900FE014E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B04E52F9258E486900FE014E;
+			remoteInfo = BrainVire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B04E52FA258E486900FE014E /* BrainVire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainVire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04E52FD258E486900FE014E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B04E52FF258E486900FE014E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B04E5301258E486900FE014E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B04E5304258E486900FE014E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B04E5307258E486900FE014E /* BrainVire.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrainVire.xcdatamodel; sourceTree = "<group>"; };
+		B04E5309258E486A00FE014E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B04E530C258E486A00FE014E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B04E530E258E486A00FE014E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04E5313258E486A00FE014E /* BrainVireTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainVireTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04E5317258E486A00FE014E /* BrainVireTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainVireTests.swift; sourceTree = "<group>"; };
+		B04E5319258E486A00FE014E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04E531E258E486A00FE014E /* BrainVireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainVireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B04E5322258E486A00FE014E /* BrainVireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainVireUITests.swift; sourceTree = "<group>"; };
+		B04E5324258E486A00FE014E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B04E52F7258E486900FE014E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E5310258E486A00FE014E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E531B258E486A00FE014E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B04E52F1258E486900FE014E = {
+			isa = PBXGroup;
+			children = (
+				B04E52FC258E486900FE014E /* BrainVire */,
+				B04E5316258E486A00FE014E /* BrainVireTests */,
+				B04E5321258E486A00FE014E /* BrainVireUITests */,
+				B04E52FB258E486900FE014E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B04E52FB258E486900FE014E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B04E52FA258E486900FE014E /* BrainVire.app */,
+				B04E5313258E486A00FE014E /* BrainVireTests.xctest */,
+				B04E531E258E486A00FE014E /* BrainVireUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B04E52FC258E486900FE014E /* BrainVire */ = {
+			isa = PBXGroup;
+			children = (
+				B04E52FD258E486900FE014E /* AppDelegate.swift */,
+				B04E52FF258E486900FE014E /* SceneDelegate.swift */,
+				B04E5301258E486900FE014E /* ViewController.swift */,
+				B04E5303258E486900FE014E /* Main.storyboard */,
+				B04E5309258E486A00FE014E /* Assets.xcassets */,
+				B04E530B258E486A00FE014E /* LaunchScreen.storyboard */,
+				B04E530E258E486A00FE014E /* Info.plist */,
+				B04E5306258E486900FE014E /* BrainVire.xcdatamodeld */,
+			);
+			path = BrainVire;
+			sourceTree = "<group>";
+		};
+		B04E5316258E486A00FE014E /* BrainVireTests */ = {
+			isa = PBXGroup;
+			children = (
+				B04E5317258E486A00FE014E /* BrainVireTests.swift */,
+				B04E5319258E486A00FE014E /* Info.plist */,
+			);
+			path = BrainVireTests;
+			sourceTree = "<group>";
+		};
+		B04E5321258E486A00FE014E /* BrainVireUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B04E5322258E486A00FE014E /* BrainVireUITests.swift */,
+				B04E5324258E486A00FE014E /* Info.plist */,
+			);
+			path = BrainVireUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B04E52F9258E486900FE014E /* BrainVire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04E5327258E486A00FE014E /* Build configuration list for PBXNativeTarget "BrainVire" */;
+			buildPhases = (
+				B04E52F6258E486900FE014E /* Sources */,
+				B04E52F7258E486900FE014E /* Frameworks */,
+				B04E52F8258E486900FE014E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainVire;
+			productName = BrainVire;
+			productReference = B04E52FA258E486900FE014E /* BrainVire.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B04E5312258E486A00FE014E /* BrainVireTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04E532A258E486A00FE014E /* Build configuration list for PBXNativeTarget "BrainVireTests" */;
+			buildPhases = (
+				B04E530F258E486A00FE014E /* Sources */,
+				B04E5310258E486A00FE014E /* Frameworks */,
+				B04E5311258E486A00FE014E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04E5315258E486A00FE014E /* PBXTargetDependency */,
+			);
+			name = BrainVireTests;
+			productName = BrainVireTests;
+			productReference = B04E5313258E486A00FE014E /* BrainVireTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B04E531D258E486A00FE014E /* BrainVireUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B04E532D258E486A00FE014E /* Build configuration list for PBXNativeTarget "BrainVireUITests" */;
+			buildPhases = (
+				B04E531A258E486A00FE014E /* Sources */,
+				B04E531B258E486A00FE014E /* Frameworks */,
+				B04E531C258E486A00FE014E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B04E5320258E486A00FE014E /* PBXTargetDependency */,
+			);
+			name = BrainVireUITests;
+			productName = BrainVireUITests;
+			productReference = B04E531E258E486A00FE014E /* BrainVireUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B04E52F2258E486900FE014E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B04E52F9258E486900FE014E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B04E5312258E486A00FE014E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B04E52F9258E486900FE014E;
+					};
+					B04E531D258E486A00FE014E = {
+						CreatedOnToolsVersion = 12.0.1;
+						TestTargetID = B04E52F9258E486900FE014E;
+					};
+				};
+			};
+			buildConfigurationList = B04E52F5258E486900FE014E /* Build configuration list for PBXProject "BrainVire" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B04E52F1258E486900FE014E;
+			productRefGroup = B04E52FB258E486900FE014E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B04E52F9258E486900FE014E /* BrainVire */,
+				B04E5312258E486A00FE014E /* BrainVireTests */,
+				B04E531D258E486A00FE014E /* BrainVireUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B04E52F8258E486900FE014E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04E530D258E486A00FE014E /* LaunchScreen.storyboard in Resources */,
+				B04E530A258E486A00FE014E /* Assets.xcassets in Resources */,
+				B04E5305258E486900FE014E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E5311258E486A00FE014E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E531C258E486A00FE014E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B04E52F6258E486900FE014E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04E5308258E486900FE014E /* BrainVire.xcdatamodeld in Sources */,
+				B04E5302258E486900FE014E /* ViewController.swift in Sources */,
+				B04E52FE258E486900FE014E /* AppDelegate.swift in Sources */,
+				B04E5300258E486900FE014E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E530F258E486A00FE014E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04E5318258E486A00FE014E /* BrainVireTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B04E531A258E486A00FE014E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B04E5323258E486A00FE014E /* BrainVireUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B04E5315258E486A00FE014E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04E52F9258E486900FE014E /* BrainVire */;
+			targetProxy = B04E5314258E486A00FE014E /* PBXContainerItemProxy */;
+		};
+		B04E5320258E486A00FE014E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B04E52F9258E486900FE014E /* BrainVire */;
+			targetProxy = B04E531F258E486A00FE014E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B04E5303258E486900FE014E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04E5304258E486900FE014E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B04E530B258E486A00FE014E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B04E530C258E486A00FE014E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B04E5325258E486A00FE014E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B04E5326258E486A00FE014E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B04E5328258E486A00FE014E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = BrainVire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Saif.BrainVire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B04E5329258E486A00FE014E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = BrainVire/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Saif.BrainVire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B04E532B258E486A00FE014E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = BrainVireTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Saif.BrainVireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainVire.app/BrainVire";
+			};
+			name = Debug;
+		};
+		B04E532C258E486A00FE014E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = BrainVireTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Saif.BrainVireTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BrainVire.app/BrainVire";
+			};
+			name = Release;
+		};
+		B04E532E258E486A00FE014E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = BrainVireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Saif.BrainVireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrainVire;
+			};
+			name = Debug;
+		};
+		B04E532F258E486A00FE014E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 37ZFYZMW44;
+				INFOPLIST_FILE = BrainVireUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Saif.BrainVireUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BrainVire;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B04E52F5258E486900FE014E /* Build configuration list for PBXProject "BrainVire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E5325258E486A00FE014E /* Debug */,
+				B04E5326258E486A00FE014E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04E5327258E486A00FE014E /* Build configuration list for PBXNativeTarget "BrainVire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E5328258E486A00FE014E /* Debug */,
+				B04E5329258E486A00FE014E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04E532A258E486A00FE014E /* Build configuration list for PBXNativeTarget "BrainVireTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E532B258E486A00FE014E /* Debug */,
+				B04E532C258E486A00FE014E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B04E532D258E486A00FE014E /* Build configuration list for PBXNativeTarget "BrainVireUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B04E532E258E486A00FE014E /* Debug */,
+				B04E532F258E486A00FE014E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B04E5306258E486900FE014E /* BrainVire.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B04E5307258E486900FE014E /* BrainVire.xcdatamodel */,
+			);
+			currentVersion = B04E5307258E486900FE014E /* BrainVire.xcdatamodel */;
+			path = BrainVire.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B04E52F2258E486900FE014E /* Project object */;
+}
