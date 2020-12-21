@@ -39,7 +39,7 @@ class BrainVireTests: XCTestCase {
             for data in people {
                 print("name is", data.value(forKey: "name") as! String)
             }
-            XCTAssertNotNil(people,)
+            XCTAssertNotNil(people)
         } catch let error as NSError {
           print("Could not fetch. \(error), \(error.userInfo)")
         }
