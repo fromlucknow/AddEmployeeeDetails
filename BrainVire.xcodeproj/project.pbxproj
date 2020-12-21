@@ -16,6 +16,26 @@
 		B04E530D258E486A00FE014E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04E530B258E486A00FE014E /* LaunchScreen.storyboard */; };
 		B04E5318258E486A00FE014E /* BrainVireTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E5317258E486A00FE014E /* BrainVireTests.swift */; };
 		B04E5323258E486A00FE014E /* BrainVireUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E5322258E486A00FE014E /* BrainVireUITests.swift */; };
+		B04E5336258E48F100FE014E /* TextfieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04E5334258E48F100FE014E /* TextfieldTableViewCell.swift */; };
+		B04E5337258E48F100FE014E /* TextfieldTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B04E5335258E48F100FE014E /* TextfieldTableViewCell.xib */; };
+		B0DC0F76258E5555002A0D4B /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0F72258E5555002A0D4B /* DesignableButton.swift */; };
+		B0DC0F77258E5555002A0D4B /* Disgnableview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0F73258E5555002A0D4B /* Disgnableview.swift */; };
+		B0DC0F78258E5555002A0D4B /* Designabletextfield.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0F74258E5555002A0D4B /* Designabletextfield.swift */; };
+		B0DC0F79258E5555002A0D4B /* DesignableImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0F75258E5555002A0D4B /* DesignableImage.swift */; };
+		B0DC0F7F258E572C002A0D4B /* AddEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0F7E258E572C002A0D4B /* AddEmployeeViewController.swift */; };
+		B0DC0F88258E578D002A0D4B /* ViewEmployeeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0F87258E578D002A0D4B /* ViewEmployeeViewController.swift */; };
+		B0DC0F92258EF092002A0D4B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0F90258EF092002A0D4B /* Extensions.swift */; };
+		B0DC0F93258EF092002A0D4B /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0F91258EF092002A0D4B /* Alert.swift */; };
+		B0DC0FA5258F1048002A0D4B /* MaleFemale_TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0FA3258F1048002A0D4B /* MaleFemale_TableViewCell.swift */; };
+		B0DC0FA6258F1048002A0D4B /* MaleFemale_TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0DC0FA4258F1048002A0D4B /* MaleFemale_TableViewCell.xib */; };
+		B0DC0FAC258F15FF002A0D4B /* DegreeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0FAA258F15FF002A0D4B /* DegreeTableViewCell.swift */; };
+		B0DC0FAD258F15FF002A0D4B /* DegreeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0DC0FAB258F15FF002A0D4B /* DegreeTableViewCell.xib */; };
+		B0DC0FB3258F1A1F002A0D4B /* SingleButtonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0FB1258F1A1F002A0D4B /* SingleButtonTableViewCell.swift */; };
+		B0DC0FB4258F1A1F002A0D4B /* SingleButtonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0DC0FB2258F1A1F002A0D4B /* SingleButtonTableViewCell.xib */; };
+		B0DC0FC3258FBB26002A0D4B /* NameAnddesignationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0FC1258FBB26002A0D4B /* NameAnddesignationTableViewCell.swift */; };
+		B0DC0FC4258FBB26002A0D4B /* NameAnddesignationTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0DC0FC2258FBB26002A0D4B /* NameAnddesignationTableViewCell.xib */; };
+		B0DC0FD02590437F002A0D4B /* Show_detailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0DC0FCE2590437F002A0D4B /* Show_detailsTableViewCell.swift */; };
+		B0DC0FD12590437F002A0D4B /* Show_detailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B0DC0FCF2590437F002A0D4B /* Show_detailsTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +71,26 @@
 		B04E531E258E486A00FE014E /* BrainVireUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrainVireUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04E5322258E486A00FE014E /* BrainVireUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainVireUITests.swift; sourceTree = "<group>"; };
 		B04E5324258E486A00FE014E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04E5334258E48F100FE014E /* TextfieldTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextfieldTableViewCell.swift; sourceTree = "<group>"; };
+		B04E5335258E48F100FE014E /* TextfieldTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextfieldTableViewCell.xib; sourceTree = "<group>"; };
+		B0DC0F72258E5555002A0D4B /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableButton.swift; path = BrainVire/DesignableClass/DesignableButton.swift; sourceTree = SOURCE_ROOT; };
+		B0DC0F73258E5555002A0D4B /* Disgnableview.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Disgnableview.swift; path = BrainVire/DesignableClass/Disgnableview.swift; sourceTree = SOURCE_ROOT; };
+		B0DC0F74258E5555002A0D4B /* Designabletextfield.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Designabletextfield.swift; path = BrainVire/DesignableClass/Designabletextfield.swift; sourceTree = SOURCE_ROOT; };
+		B0DC0F75258E5555002A0D4B /* DesignableImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DesignableImage.swift; path = BrainVire/DesignableClass/DesignableImage.swift; sourceTree = SOURCE_ROOT; };
+		B0DC0F7E258E572C002A0D4B /* AddEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEmployeeViewController.swift; sourceTree = "<group>"; };
+		B0DC0F87258E578D002A0D4B /* ViewEmployeeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewEmployeeViewController.swift; sourceTree = "<group>"; };
+		B0DC0F90258EF092002A0D4B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B0DC0F91258EF092002A0D4B /* Alert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		B0DC0FA3258F1048002A0D4B /* MaleFemale_TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaleFemale_TableViewCell.swift; sourceTree = "<group>"; };
+		B0DC0FA4258F1048002A0D4B /* MaleFemale_TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MaleFemale_TableViewCell.xib; sourceTree = "<group>"; };
+		B0DC0FAA258F15FF002A0D4B /* DegreeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegreeTableViewCell.swift; sourceTree = "<group>"; };
+		B0DC0FAB258F15FF002A0D4B /* DegreeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DegreeTableViewCell.xib; sourceTree = "<group>"; };
+		B0DC0FB1258F1A1F002A0D4B /* SingleButtonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleButtonTableViewCell.swift; sourceTree = "<group>"; };
+		B0DC0FB2258F1A1F002A0D4B /* SingleButtonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SingleButtonTableViewCell.xib; sourceTree = "<group>"; };
+		B0DC0FC1258FBB26002A0D4B /* NameAnddesignationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameAnddesignationTableViewCell.swift; sourceTree = "<group>"; };
+		B0DC0FC2258FBB26002A0D4B /* NameAnddesignationTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NameAnddesignationTableViewCell.xib; sourceTree = "<group>"; };
+		B0DC0FCE2590437F002A0D4B /* Show_detailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Show_detailsTableViewCell.swift; sourceTree = "<group>"; };
+		B0DC0FCF2590437F002A0D4B /* Show_detailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Show_detailsTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +141,11 @@
 		B04E52FC258E486900FE014E /* BrainVire */ = {
 			isa = PBXGroup;
 			children = (
+				B0DC0F8F258EF068002A0D4B /* Useful_classes */,
+				B0DC0F86258E574C002A0D4B /* ViewEmployeeViewContrller */,
+				B0DC0F7D258E56DF002A0D4B /* AddEmployeeViewController */,
+				B0DC0F71258E5537002A0D4B /* DesignableClasses */,
+				B04E5333258E488500FE014E /* CommonXib */,
 				B04E52FD258E486900FE014E /* AppDelegate.swift */,
 				B04E52FF258E486900FE014E /* SceneDelegate.swift */,
 				B04E5301258E486900FE014E /* ViewController.swift */,
@@ -129,6 +174,61 @@
 				B04E5324258E486A00FE014E /* Info.plist */,
 			);
 			path = BrainVireUITests;
+			sourceTree = "<group>";
+		};
+		B04E5333258E488500FE014E /* CommonXib */ = {
+			isa = PBXGroup;
+			children = (
+				B04E5334258E48F100FE014E /* TextfieldTableViewCell.swift */,
+				B04E5335258E48F100FE014E /* TextfieldTableViewCell.xib */,
+				B0DC0FA3258F1048002A0D4B /* MaleFemale_TableViewCell.swift */,
+				B0DC0FA4258F1048002A0D4B /* MaleFemale_TableViewCell.xib */,
+				B0DC0FAA258F15FF002A0D4B /* DegreeTableViewCell.swift */,
+				B0DC0FAB258F15FF002A0D4B /* DegreeTableViewCell.xib */,
+				B0DC0FB1258F1A1F002A0D4B /* SingleButtonTableViewCell.swift */,
+				B0DC0FB2258F1A1F002A0D4B /* SingleButtonTableViewCell.xib */,
+				B0DC0FC1258FBB26002A0D4B /* NameAnddesignationTableViewCell.swift */,
+				B0DC0FC2258FBB26002A0D4B /* NameAnddesignationTableViewCell.xib */,
+				B0DC0FCE2590437F002A0D4B /* Show_detailsTableViewCell.swift */,
+				B0DC0FCF2590437F002A0D4B /* Show_detailsTableViewCell.xib */,
+			);
+			path = CommonXib;
+			sourceTree = "<group>";
+		};
+		B0DC0F71258E5537002A0D4B /* DesignableClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B0DC0F72258E5555002A0D4B /* DesignableButton.swift */,
+				B0DC0F75258E5555002A0D4B /* DesignableImage.swift */,
+				B0DC0F74258E5555002A0D4B /* Designabletextfield.swift */,
+				B0DC0F73258E5555002A0D4B /* Disgnableview.swift */,
+			);
+			path = DesignableClasses;
+			sourceTree = "<group>";
+		};
+		B0DC0F7D258E56DF002A0D4B /* AddEmployeeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B0DC0F7E258E572C002A0D4B /* AddEmployeeViewController.swift */,
+			);
+			path = AddEmployeeViewController;
+			sourceTree = "<group>";
+		};
+		B0DC0F86258E574C002A0D4B /* ViewEmployeeViewContrller */ = {
+			isa = PBXGroup;
+			children = (
+				B0DC0F87258E578D002A0D4B /* ViewEmployeeViewController.swift */,
+			);
+			path = ViewEmployeeViewContrller;
+			sourceTree = "<group>";
+		};
+		B0DC0F8F258EF068002A0D4B /* Useful_classes */ = {
+			isa = PBXGroup;
+			children = (
+				B0DC0F91258EF092002A0D4B /* Alert.swift */,
+				B0DC0F90258EF092002A0D4B /* Extensions.swift */,
+			);
+			path = Useful_classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,9 +334,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0DC0FC4258FBB26002A0D4B /* NameAnddesignationTableViewCell.xib in Resources */,
 				B04E530D258E486A00FE014E /* LaunchScreen.storyboard in Resources */,
+				B0DC0FA6258F1048002A0D4B /* MaleFemale_TableViewCell.xib in Resources */,
 				B04E530A258E486A00FE014E /* Assets.xcassets in Resources */,
 				B04E5305258E486900FE014E /* Main.storyboard in Resources */,
+				B04E5337258E48F100FE014E /* TextfieldTableViewCell.xib in Resources */,
+				B0DC0FB4258F1A1F002A0D4B /* SingleButtonTableViewCell.xib in Resources */,
+				B0DC0FAD258F15FF002A0D4B /* DegreeTableViewCell.xib in Resources */,
+				B0DC0FD12590437F002A0D4B /* Show_detailsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,10 +367,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0DC0FA5258F1048002A0D4B /* MaleFemale_TableViewCell.swift in Sources */,
+				B0DC0F77258E5555002A0D4B /* Disgnableview.swift in Sources */,
+				B0DC0F88258E578D002A0D4B /* ViewEmployeeViewController.swift in Sources */,
+				B04E5336258E48F100FE014E /* TextfieldTableViewCell.swift in Sources */,
 				B04E5308258E486900FE014E /* BrainVire.xcdatamodeld in Sources */,
+				B0DC0FC3258FBB26002A0D4B /* NameAnddesignationTableViewCell.swift in Sources */,
+				B0DC0F78258E5555002A0D4B /* Designabletextfield.swift in Sources */,
+				B0DC0F93258EF092002A0D4B /* Alert.swift in Sources */,
+				B0DC0F7F258E572C002A0D4B /* AddEmployeeViewController.swift in Sources */,
 				B04E5302258E486900FE014E /* ViewController.swift in Sources */,
+				B0DC0F92258EF092002A0D4B /* Extensions.swift in Sources */,
 				B04E52FE258E486900FE014E /* AppDelegate.swift in Sources */,
+				B0DC0FB3258F1A1F002A0D4B /* SingleButtonTableViewCell.swift in Sources */,
 				B04E5300258E486900FE014E /* SceneDelegate.swift in Sources */,
+				B0DC0F79258E5555002A0D4B /* DesignableImage.swift in Sources */,
+				B0DC0FD02590437F002A0D4B /* Show_detailsTableViewCell.swift in Sources */,
+				B0DC0F76258E5555002A0D4B /* DesignableButton.swift in Sources */,
+				B0DC0FAC258F15FF002A0D4B /* DegreeTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
